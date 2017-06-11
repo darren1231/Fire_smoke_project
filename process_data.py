@@ -58,12 +58,12 @@ class Process_data(object):
         small_smoke_data = self.load_data(self.small_path+"/smoke/*.jpg",self.smoke_label)
         small_nonsmoke_data = self.load_data(self.small_path+"/smoke/*.jpg",self.nonsmoke_label)
         train_data=[]
-        train_data.extend(set3_smoke_data)
-        train_data.extend(set3_nonsmoke_data)
-        train_data.extend(set4_smoke_data)
-        train_data.extend(set4_nonsmoke_data)
-        train_data.extend(set1_smoke_data)
-        train_data.extend(set1_nonsmoke_data)
+#        train_data.extend(set3_smoke_data)
+#        train_data.extend(set3_nonsmoke_data)
+#        train_data.extend(set4_smoke_data)
+#        train_data.extend(set4_nonsmoke_data)
+#        train_data.extend(set1_smoke_data)
+#        train_data.extend(set1_nonsmoke_data)
         train_data.extend(set2_smoke_data)
 #        train_data.extend(small_nonsmoke_data)
         
